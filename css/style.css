@@ -1,0 +1,324 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    font-family: 'Nova Flat', cursive;
+
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+#navbar{
+    display: flex;
+    height: 80px;
+    /* border: 2px solid red; */
+    align-items: center;
+    position: sticky;
+    top: 0px;
+
+    
+}
+#navbar ul{
+    display: flex;
+    padding: 23px;
+   margin: 10px 2px;
+   justify-content: center;
+   align-items: center;
+   /* border: 2px solid red; */
+
+}
+#navbar li{
+    list-style: none;
+
+
+}
+#navbar li a{
+    text-decoration: none;
+    margin: 25px;
+    font-size: 20px;
+    /* border: 2px solid red; */
+    padding: 1px 1px;
+ 
+    /* border-radius: 10px; */
+    color: black;
+    /* background-color: black; */
+    font-weight: bold;
+   
+
+    
+
+}
+#logo{
+    height: 80px;
+    padding: 8px 25px
+}
+#navbar ul li a:hover{
+    color: white;
+    background-color: black;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    opacity: 0.05;
+
+
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 23px 35px;
+    margin: 0px;
+    /* border: 2px solid red; */
+    color: black;
+    /* position: relative; */
+    height: 500px;
+
+}
+.primary-heading{
+    font-size: 36px;
+    animation:  owais 1.7s ease-in 0s infinite forwards ;
+    position: relative;
+}
+#home p{
+    font-size: 25px;
+
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('/img/bg1.jpg') no-repeat center center/cover;
+    height:626px;
+    width:100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: .5;
+    
+    
+
+    
+}
+.btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    font-family: 'Nova Flat', cursive;
+    /* position: relative; */
+    transition: all 0.5s ease-in-out 0s ;
+    
+    
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+transform: scale(1.2);
+  
+}
+@keyframes owais{
+    0%{
+        right: 0px;
+        left: 0px;
+    }
+    25%{
+        left: 25px;
+        /* right: 0px; */
+        
+    }
+    50%{
+        right: 0px;
+        left: 0px;
+    }
+    75%{
+        /* right: 25px; */
+        left: -25px;
+    }
+    100%{
+        left: 0px;
+        right: 0px;
+    }
+}
+/* Services */
+.center{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+}
+#service{
+    
+    margin: 0px 0px;
+    /* border: 2px solid red; */
+    height: 520px;
+    /* padding:12px 0px ; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-evenly; */
+    align-items: center;
+    position: relative;
+    
+
+}
+#logos{
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    /* border: 2px solid black;  */
+    justify-content: space-evenly;
+    
+
+}
+
+.box{
+    /* border: 2px solid red; */
+    height: 400px;
+    width: 450px;
+    margin: 0px 35px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(224, 221, 215);
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+
+   
+    
+    
+
+
+    
+
+}
+.logo2 img{
+    height: 180px;
+    padding: 25px;
+    margin-top: 0px;
+}
+#service::before{
+    content: "";
+    background-color: burlywood;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .4;
+}
+/* Clients */
+#clients{
+    /* border: 2px solid red; */
+    margin: 0px 0px;
+    height: 330px;
+    position: relative;
+    padding: 23px 23px;
+    z-index: -1;
+    
+}
+.client-logo{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+.logo3 img{
+    width:155px;
+    
+    
+
+}
+#clients::before{
+    content:"" ;
+    background: url('/img/bg2.jpg')no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.35;
+
+}
+/* contacts */
+#contact{
+    /* border: 2px solid red; */
+    margin: 0px 0px;
+    height: 550px;
+    padding: 30px 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+#contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    /* border: 2px solid red; */
+    /* z-index: 1; */
+}
+
+.details{
+    font-size: 22px;
+    margin: 2px 0px;
+}
+.details input{
+    font-size: 16px;
+    width: 500px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px 23px;
+    font-family: 'Nova Flat', cursive;
+
+}
+#Feedback{
+    font-size: 16px;
+    width: 500px;
+    height: 150px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px 23px;
+    font-family: 'Nova Flat', cursive;
+
+
+}
+#contact::before{
+    content: "";
+    background: url('/img/bg3.jpg')no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.75;
+
+}
+footer{
+    text-align: center;
+    /* border-radius:10px ; */
+    /* border: 2px solid red; */
+    margin-top: 0px;
+    font-size: 18px;
+    background-color: wheat;
+}

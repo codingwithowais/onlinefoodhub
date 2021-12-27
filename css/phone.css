@@ -1,0 +1,140 @@
+#home::before{
+    /* height: auto; */
+    overflow: hidden;
+    height: 1200px;
+    
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    /* overflow: hidden; */
+}
+#service{
+    
+    height: 1400px;
+    overflow: hidden;
+    width: auto;
+    /* position: absolute; */
+    
+    /* margin-top: 563px; */
+    margin: 0px;
+    padding-top: 45px;
+
+    
+}
+.box{
+    /* overflow: hidden; */
+    width: auto;
+
+    padding: auto;
+    height: 400px;
+    margin: 11px 12px;
+    /* flex-shrink: 2px; */
+    
+  
+
+
+
+   
+
+
+}
+#logos{
+    /* flex-wrap: wrap; */
+    overflow: hidden;
+      
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+#navbar{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+
+}
+#navbar ul{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+#navbar ul li {
+    margin: 4px 0px;
+    
+}
+.box img{
+    width: auto;
+    overflow: hidden;
+    padding: auto;
+}
+#contact{
+    width: auto;
+    height: auto;
+}
+#contact form{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 1000px; */
+    height: auto;
+    width: auto;
+    z-index: 1;
+    /* margin: -20px 0px; */
+    margin-top: -30px;
+    /* border: 2px solid red; */
+}
+#contact form input{
+    width: 250px;
+    overflow: hidden;
+    height: auto;
+}
+#contact form textarea{
+    width: auto;
+    overflow: hidden;
+    /* height: auto; */
+    
+}
+.details{
+    margin: 0px 0px;
+}
+.client-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    flex-wrap: wrap;
+
+}
+#client{
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    margin:0px 0px;
+}
+.client-logo img{
+    margin: 5px 40px;
+}
+#home{
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  margin: 0px;
+}
+#contact button{
+    /* margin-top: 60px; */
+    margin: 10px 0px;
+
+}
